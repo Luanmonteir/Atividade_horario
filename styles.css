@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(75, 169, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 50px rgba(7, 0, 0, 0.511);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #333;
+}
+
+#clock {
+    font-size: 2rem;
+    margin-top: 20px;
+}
